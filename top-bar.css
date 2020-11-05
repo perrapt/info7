@@ -1,0 +1,44 @@
+
+/* MODULE TOP BAR STYLE */
+
+.top-bar { display: block; width: 100%; position: fixed; left: 0; top: 0; /*padding: 10px 0;*/ background: #ffffff; z-index: 50;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+}
+
+.top-bar .content { 
+	-webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    background: #00aabb;
+}
+
+/*.top-bar:hover .content { background: #00aabb; }*/
+
+.top-bar .middle-content { display: block; max-width: 1120px; margin: auto; padding: 10px 0;  }
+
+.top-bar .middle-content .logo { display: inline-block; }
+
+.top-bar .middle-content .location { display: inline-block; width: 242px; text-transform: uppercase; font-size: 20px; color: #0194ac; font-weight: bold; margin-left: 20px; position: relative; top: 5px; }
+
+.cs-optgroup > span {
+    font-size: 19px;
+    color: #4e4e4e;
+}
+
+.cs-select li.cs-optgroup ul {
+    padding-left: 5px;
+}
+.cs-select li.cs-optgroup ul span {
+    font-size: 19px;
+}
+.cs-select li.cs-optgroup ul span:hover {
+    color: #4e4e4e;
+}
+
+/*/MODULE TOP BAR STYLE/*/
